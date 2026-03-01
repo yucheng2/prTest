@@ -1,20 +1,35 @@
 ```
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
 # Dependencies
 node_modules/
 
-# Environment variables
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
+.idea/
+*.swp
+*.swo
 
-# Build artifacts
-dist/
-build/
+# Logs
 *.log
 
-# Package lock file
-package-lock.json
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 ```
